@@ -1,5 +1,3 @@
-%%
-clc; close all; clear all; 
 load("epochs.mat");
 load("labels.mat");
 load('locs.mat');
