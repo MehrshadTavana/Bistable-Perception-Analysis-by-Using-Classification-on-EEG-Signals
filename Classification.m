@@ -24,7 +24,7 @@ offset = max(abs(X(:)));
 disp_eeg(X, offset, fs, name);
 title('The EEG Signal', 'Interpreter', 'latex', 'FontSize', 10)
 
-% Calculating channels that are different in two classes 
+
 class0_wav = zeros(30, 71, 1000);
 class1_wav = zeros(size(class0_wav));
 for i = 1:size(data_train, 3)
