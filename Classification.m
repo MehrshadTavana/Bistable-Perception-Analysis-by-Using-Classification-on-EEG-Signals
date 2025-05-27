@@ -9,7 +9,6 @@ labels = str2num(labels);
 labels(labels == 101) = 0;
 labels(labels == 113) = 1;
 
-% Train Test Split and Baseline normalization
 indices = randperm(size(data, 3));
 data_train = data(:, :, indices(1:208));
 y_train = labels(indices(1:208));
