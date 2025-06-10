@@ -1,4 +1,3 @@
-%% experiment information
 
 fs = 250;
 trials = 14;
