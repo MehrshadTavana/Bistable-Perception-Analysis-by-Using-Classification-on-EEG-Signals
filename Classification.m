@@ -47,8 +47,6 @@ figure
 plottopomap(locsX,locsY,name,w);
 [~, desired_channels] = maxk(w, 15);
 
-%% CNN method
-
 %train dataset wavelet transform
 
 cnn_input = zeros([37 1000 length(desired_channels) 208]);
