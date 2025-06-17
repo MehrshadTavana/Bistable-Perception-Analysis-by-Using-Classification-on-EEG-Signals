@@ -1,3 +1,7 @@
+clc
+close all
+clear
+
 load("epochs.mat");
 load("labels.mat");
 load('locs.mat');
