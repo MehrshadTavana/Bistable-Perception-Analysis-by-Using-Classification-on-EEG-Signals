@@ -1,6 +1,3 @@
-clc
-close all
-clear
 
 %% have a run here
 load("epochs.mat");
