@@ -192,8 +192,6 @@ x_test = (concatenated_input_test-mu)*coeff(:,1:components_number);
 YTest_predicted = predict(Mdl1,x_test);
 
 acc = sum(YTest_predicted == y_test)./numel(y_test)
-
-
-
+cm = plotconfusion(y_test', YTest_predicted');
 cm = plotconfusion(y_test', YTest_predicted');
 
