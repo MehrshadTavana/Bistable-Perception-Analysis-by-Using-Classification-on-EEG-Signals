@@ -1,4 +1,4 @@
-
+%%%% Make sure to read the new updates in readme file
 %% have a run here
 load("epochs.mat");
 load("labels.mat");
