@@ -20,7 +20,7 @@ y_test = labels(indices(209:end));
 
 
 
-% Plotting one train trial (functions removed)
+% Plotting one train trial (functions removed) this plots can be used in your report
 X = data_train(:,:,randi(208));  
 offset = max(abs(X(:)));
 disp_eeg(X, offset, fs, name);
