@@ -31,7 +31,7 @@ for i=1:trials
         start = rising_edge_indices(2)+1;
     end
     
-    %find second start time
+    %find second start time this is for the second time
     meta_filepath = 'Dara_org/Amirreza_Hatami/data/data/Arshak_%d';
     metadata = load(sprintf(meta_filepath,i));
     second_start = ceil(metadata.Start_time_second*fs) + start;
