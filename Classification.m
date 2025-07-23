@@ -43,7 +43,7 @@ class0_wav = class0_wav/length(find(y_train==0));
 class0_wav = class0_wav/length(find(y_train==1));
 wav_diff = abs(class0_wav-class1_wav);
 
-w = sum(wav_diff, 2);
+w = sum(wav_diff, 3);
 w = sum(w, 3);
 figure
 %%
