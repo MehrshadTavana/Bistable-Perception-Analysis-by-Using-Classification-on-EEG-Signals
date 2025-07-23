@@ -123,7 +123,7 @@ for i = 1:28
     
 end
 
-%% Step 9: Re-reference the data to average
+%% Step 9: Re-reference the data to average on the collected data
 for i = 1:28
     EEG(i).nbchan = EEG(i).nbchan+1;
     EEG(i).data(end+1,:) = zeros(1, EEG(i).pnts);
