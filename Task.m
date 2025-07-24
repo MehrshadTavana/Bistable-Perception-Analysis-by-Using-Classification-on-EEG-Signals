@@ -1,4 +1,4 @@
-%% Amirreza Hatamipour
+%% Amirreza Hatamipour TESTING PERCEPTION
 % Bistable perception
 % neuroscience project
 %% Start
