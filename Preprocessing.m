@@ -4,7 +4,7 @@ fs = 250;
 trials = 14;
 channels = {'C4', 'Cp4', 'F4', 'Fc4', 'Cz', 'Fp2', 'Fz', 'Fcz', 'O2', 'Tp8', ...
     'P8', 'Ft8', 'T8', 'P4', 'F8', 'P3', 'Cp3', 'C3', 'Fc3', 'F3', 'Fp1', ...
-    'Pz', 'Cpz', 'Oz', 'O1', 'P7', 'Tp7', 'T7', 'Ft7', 'F7'};
+    'Pz', 'Cpz', 'Oz', 'O1', 'P7', 'Tp7', 'T7', 'Ft7', 'F7','F8'};
 
 trial_length = 3;
 experiment_length = 85;
