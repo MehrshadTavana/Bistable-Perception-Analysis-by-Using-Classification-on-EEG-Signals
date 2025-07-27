@@ -1,5 +1,5 @@
 %%%% Run here
-%% make sure you run this section
+%% make sure you run this section in this file
 fs = 250;
 trials = 14;
 channels = {'C4', 'Cp4', 'F4', 'Fc4', 'Cz', 'Fp2', 'Fz', 'Fcz', 'O2', 'Tp8', ...
