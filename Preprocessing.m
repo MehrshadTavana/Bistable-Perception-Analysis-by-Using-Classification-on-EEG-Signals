@@ -110,7 +110,7 @@ end
 
 %% Makoto
 
-%% note. Steps 1 through 6 of Makoto's pipeline were applied by the interactive GUI of EEGLAB
+%% note. Steps 1 through 6 of Makoto's pipeline were applied by the interactive GUI of EEGLAB in SUT
 %% Step 7: Apply clean_rawdata() 
 % to reject bad channels and correct continuous data using Artifact Subspace Reconstruction (ASR). 
 % Note 'availableRAM_GB' is for clean_rawdata1.10. For any newer version, it will cause error.
@@ -210,6 +210,7 @@ for i = 1:28
     end
 
 end
+
 
 
 
