@@ -1,4 +1,4 @@
-%%%% Run here
+%%%% Run here (main code)
 %% make sure you run this section in this file
 fs = 250;
 trials = 14;
@@ -210,6 +210,7 @@ for i = 1:28
     end
 
 end
+
 
 
 
