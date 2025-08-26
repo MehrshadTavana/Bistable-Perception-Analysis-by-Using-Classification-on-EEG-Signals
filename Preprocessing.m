@@ -95,7 +95,7 @@ for i=1:trials
     response_key1 = response_key1(response_key1~=0);
     response_key2 = response_key2(response_key2~=0);
     
-    %response times in your time
+    %response times in your time zone
     file = fopen(sprintf('events%d.txt', i*2-1),'w');
     fprintf(file,'%s %s\n','latency','type');
     fprintf(file,'%deee %d\n',[response_time1; response_key1]);
@@ -210,6 +210,7 @@ for i = 1:28
     end
 
 end
+
 
 
 
