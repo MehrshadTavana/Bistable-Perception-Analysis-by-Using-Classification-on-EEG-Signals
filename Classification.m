@@ -20,7 +20,7 @@ y_test = labels(indices(209:end));
 
 
 
-% Plotting one train trial (functions removed) this plots can be used in your report for the paper in the pdf format
+% Plotting one train trial (functions removed) this plots can be used in your report for the paper in the pdf format run it here
 X = data_train(:,:,randi(208));  
 offset = max(abs(X(:)));
 disp_eeg(X, offset, fs, name);
@@ -194,6 +194,7 @@ YTest_predicted = predict(Mdl1,x_test);
 acc = sum(YTest_predicted == y_test)./numel(y_test)
 cm = plotconfusion(y_test', YTest_predicted');
 cm = plotconfusion(y_test', YTest_predicted');
+
 
 
 
