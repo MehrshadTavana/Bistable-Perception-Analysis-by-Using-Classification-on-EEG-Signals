@@ -108,7 +108,7 @@ for i=1:trials
     
 end
 
-%% Makoto
+%% Makoto the main
 
 %% note. Steps 1 through 6 of Makoto's pipeline were applied by the interactive GUI of EEGLAB in SUT
 %% Step 7: Apply clean_rawdata() 
@@ -210,6 +210,7 @@ for i = 1:28
     end
 
 end
+
 
 
 
