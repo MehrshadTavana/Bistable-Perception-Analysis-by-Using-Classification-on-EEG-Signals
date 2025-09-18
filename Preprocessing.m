@@ -52,7 +52,7 @@ for i=1:trials
     while j<length(metadata.ResponseTime) && metadata.ResponseTime(j) ~= 0
        
     %if the key is pressed at least (trial length) seconds after the
-    %last time, store the response time
+    %last time, store the response time in the main
         
         %if first run
         if metadata.ResponseTime(j)<metadata.Start_time_second
@@ -210,6 +210,7 @@ for i = 1:28
     end
 
 end
+
 
 
 
