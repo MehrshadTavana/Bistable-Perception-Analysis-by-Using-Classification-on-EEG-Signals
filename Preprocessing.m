@@ -1,4 +1,4 @@
-%%%% Run here (main code)
+%%%% Run here (main code) from the file
 %% make sure you run this section in this file in the main
 fs = 250;
 trials = 14;
