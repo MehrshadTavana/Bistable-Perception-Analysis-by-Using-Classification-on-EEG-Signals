@@ -9,7 +9,7 @@ channels = {'C4', 'Cp4', 'F4', 'Fc4', 'Cz', 'Fp2', 'Fz', 'Fcz', 'O2', 'Tp8', ...
 trial_length = 3;
 experiment_length = 85;
 
-%% event extraction and reading files Arshak Rezvani EE98 in Iran run it here in main
+%% event extraction and reading files Arshak Rezvani EE98 in Iran run it here in main to run the code
 data = zeros(trials*2, length(channels), experiment_length*fs);
 
 for i=1:trials
@@ -210,6 +210,7 @@ for i = 1:28
     end
 
 end
+
 
 
 
