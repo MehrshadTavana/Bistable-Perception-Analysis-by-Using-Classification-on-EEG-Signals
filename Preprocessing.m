@@ -1,5 +1,5 @@
 %%%% Run here (main code) from the file
-%% make sure you run this section in this file in the main
+%% make sure you run this section in this file in the main the code
 fs = 250;
 trials = 14;
 channels = {'C4', 'Cp4', 'F4', 'Fc4', 'Cz', 'Fp2', 'Fz', 'Fcz', 'O2', 'Tp8', ...
@@ -210,6 +210,7 @@ for i = 1:28
     end
 
 end
+
 
 
 
