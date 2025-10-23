@@ -1,5 +1,5 @@
 %%%% Make sure to read the new updates in readme file this is the main file that you have to run the code the main
-%% have a run here in the main code from the main, also do not change any part of the code here in the main here in the main in the main
+%% have a run here in the main code from the main, also do not change any part of the code here in the main here in the main in the main here
 load("epochs.mat");
 load("labels.mat");
 load('locs.mat');
@@ -194,6 +194,7 @@ YTest_predicted = predict(Mdl1,x_test);
 acc = sum(YTest_predicted == y_test)./numel(y_test)
 cm = plotconfusion(y_test', YTest_predicted');
 cm = plotconfusion(y_test', YTest_predicted');
+
 
 
 
