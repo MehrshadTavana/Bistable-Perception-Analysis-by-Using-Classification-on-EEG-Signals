@@ -11,7 +11,7 @@ labels = str2num(labels);
 labels(labels == 101) = 0;
 labels(labels == 113) = 1;
 
-%% for running have here not anywhere else dont forget to do that here just here make sure you have them and test the database and push to db to main here in the main
+%% for running have here not anywhere else dont forget to do that here just here make sure you have them and test the database and push to db to main here in the main in here
 indices = randperm(size(data, 3));
 data_train = data(:, :, indices(1:208));
 y_train = labels(indices(1:208));
@@ -194,6 +194,7 @@ YTest_predicted = predict(Mdl1,x_test);
 acc = sum(YTest_predicted == y_test)./numel(y_test)
 cm = plotconfusion(y_test', YTest_predicted');
 cm = plotconfusion(y_test', YTest_predicted');
+
 
 
 
